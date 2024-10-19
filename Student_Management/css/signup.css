@@ -1,0 +1,120 @@
+﻿/* General page styling */
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color:bisque ;
+    font-size:1.2rem;
+    letter-spacing:0.15rem;
+}
+#auth-form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:90vh;
+}
+#form1 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form table */
+.auto-style1 {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.auto-style2 {
+    text-align: right;
+    padding-right: 10px;
+    color: #555;
+}
+
+.auto-style1 td {
+    padding-bottom: 10px;
+}
+
+/* Textbox styling */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+    input[type="text"]:focus, input[type="password"]:focus {
+        outline: none;
+        border-color: #5a9;
+    }
+
+/* Radio button list styling */
+#rdlistOfRoles {
+    display: flex;
+    justify-content: space-between;
+}
+
+    #rdlistOfRoles input {
+        margin-right: 10px;
+    }
+
+    #rdlistOfRoles label {
+        font-size: 14px;
+        color: #333;
+    }
+
+/* Button styling */
+#btn {
+    width: 100%;
+    padding: 12px;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin:10px;
+}
+
+    #btn:hover {
+        background-color: #48a;
+    }
+
+    #btn:active {
+        background-color: #3a8;
+    }
+
+/* Hyperlink styling */
+asp\:HyperLink {
+    color: #5a9;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+    asp\:HyperLink:hover {
+        text-decoration: underline;
+    }
+
+/* Message label styling */
+asp\:Label#lblMessage {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+}
